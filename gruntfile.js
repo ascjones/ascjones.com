@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
 
   grunt.initConfig({
+      pkg: grunt.file.readJSON('package.json'),
       assemble: {
         options: {
          assets: 'assets',
@@ -9,9 +10,9 @@ module.exports = function(grunt) {
        },
        blog: {
         options : {
-          ext: '.html', // hack from https://github.com/assemble/assemble/issues/265 for pretty urls - added after file ext below
           engine: 'handlebars',
-          layout: 'blog/post.hbs'
+          layout: 'blog/post.hbs',
+          ext: '.html' // hack from https://github.com/assemble/assemble/issues/265 for pretty urls - added after file ext below
         },
         files: [
           {expand: true, cwd: 'blog/posts', src: ['*.md'], dest: './out/blog', ext: '/index'}
@@ -20,6 +21,6 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('assemble' );
+  grunt.loadNpmTasks('assemble');
   grunt.registerTask('default', ['assemble']);
 }
