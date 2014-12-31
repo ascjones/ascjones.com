@@ -6,4 +6,4 @@ title = "about"
 
 ## Andrew Jones
 
-Baller.
+Some stuff about me.
