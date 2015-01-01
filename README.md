@@ -5,7 +5,7 @@ Source for my blog on ascjones.com
 
 Generated using http://gohugo.io/
 
-Running on my VPS using Docker: instructions from http://gohugo.io/
+Running on my VPS using Docker: instructions from http://lk4d4.darth.io/posts/hugoblog/
 
 ### Updating the blog
 
