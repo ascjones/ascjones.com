@@ -1,3 +1,14 @@
 baseurl = "http://ascjones.com"
-languageCode = "en-us"
+languageCode = "en-gb"
 title = "Andrew Jones"
+theme = "hyde"
+copyright = "Andrew Jones"
+
+[Author]
+    name = "Andrew Jones"
+
+[params]
+    description = "Spouting code"
+    twitter = "https://twitter.com/andrewscj"
+    github = "https://github.com/ascjones"
+    disqus = "ascjones"
