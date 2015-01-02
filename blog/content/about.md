@@ -1,9 +1,9 @@
 +++
 date = "2014-12-30T12:30:35Z"
-title = "about"
+title = "About"
 
+[menu.main]
+    weight = 1
 +++
-
-## Andrew Jones
 
 Some stuff about me.
