@@ -8,3 +8,7 @@ title = "gogs"
 
 +++
 
+- Moving from github
+- Fig
+- Fix from https://gist.github.com/RuslanHamidullin/94d95328a7360d843e52
+
