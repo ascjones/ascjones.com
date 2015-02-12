@@ -2,7 +2,6 @@
 categories = []
 date = "2015-02-10T22:41:42Z"
 description = ""
-draft = true
 tags = []
 title = "Beginners' Bowling with Idris"
 +++
